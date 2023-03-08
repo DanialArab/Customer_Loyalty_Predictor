@@ -25,10 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-l=6c=854qww+c&jzq1*uw4z^-=uy1tn0t7zw&k7^swtjfcl&)*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    # 'customer-loyalty-predictor.azurewebsites.net'
+    'customer-loyalty-predictor.azurewebsites.net'
 ]
 
 
