@@ -1,0 +1,1 @@
+This application was developed in django. It takes several inputs from the user and then use a pre-trained logistic regression model to predict customer loyalty: to determine whether or not a customer keeps using the company's service. 
