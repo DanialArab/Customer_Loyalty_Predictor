@@ -8,6 +8,7 @@ django = "*"
 pandas = "*"
 sklearn = "*"
 scikit-learn = "*"
+whitenoise = "*"
 
 [dev-packages]
 autopep8 = "*"

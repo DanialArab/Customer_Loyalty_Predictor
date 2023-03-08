@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/774a6c48-2194-4cb9-87c4-fcf6b6f517fb/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Customer-Loyalty-Predictor",
+    "appService.deploySubpath": "."
+}

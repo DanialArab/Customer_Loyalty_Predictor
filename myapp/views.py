@@ -35,6 +35,7 @@ customer_data = pd.DataFrame()
 df = pd.DataFrame()
 
 
+@csrf_exempt
 def feature_taker(request):
     global features_col_name_corrected
     if request.method == 'POST':
@@ -65,6 +66,7 @@ def feature_taker(request):
     return render(request, 'user_input.html', {'form': form})
 
 
+@csrf_exempt
 def dataframe_creator(request):
     global df
     print("dataframe_creator called")
@@ -76,6 +78,7 @@ def dataframe_creator(request):
     return render(request, 'feature_data.html', {'df': df})
 
 
+@csrf_exempt
 def preprocess_features(request):
     global customer_data, df
     print("preprocess_features called")
@@ -103,6 +106,7 @@ def preprocess_features(request):
     return render(request, 'data_for_ml.html', {'customer_data': customer_data})
 
 
+@csrf_exempt
 def predict(request):
 
     # make prediction using pre-trained model
