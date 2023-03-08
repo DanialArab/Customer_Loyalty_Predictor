@@ -10,6 +10,6 @@ This application was developed in django and deployed in Azure. It takes several
 + ... 
 
 
-The list of all other features can be found in the first page of the web application where the suer has a chance to enter their inputs. 
+The list of all other features can be found in the first page of the web application where the user has a chance to enter their inputs. 
 
-16 of these features can be trerated as categorical features and so one-hot encoding approach was applied to encode them. This step alog with other preprocessing steps, applied before being able to feed the data into the ML model, was incorporated in the ML pipeline (all available in the views.py file inside the myapp folder). The model accuracy vs. the applied threshold, confusuon matrix detailing Precision and Recall are summarized in the last page of the application where user will be presented with the final results.
+16 of these features can be treated as categorical features and so one-hot encoding approach was applied to encode them. This step alog with other preprocessing steps, applied before feeding the data into the ML model, were all incorporated in the ML pipeline (all available in the views.py file inside the myapp folder). The model accuracy vs. the applied thresholds, confusion matrix detailing Precision and Recall are summarized in the last page of the application where user will be presented with the final results.
