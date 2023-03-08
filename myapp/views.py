@@ -1,5 +1,3 @@
-# One thing to note is that you'll need to make sure that the model.pkl,scaler.pkl, and encoder.pkl files (if they exist) are in the
-# same directory as your views.py file, so that they can be loaded correctly.
 
 from .models import Data
 from django.http import JsonResponse
